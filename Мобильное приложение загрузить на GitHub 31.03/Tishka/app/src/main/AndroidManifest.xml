@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Tishka"
+        tools:targetApi="31">
+        <activity
+            android:name=".YprMedekamentami.DobTableMedekament"
+            android:exported="false" />
+        <activity
+            android:name=".RycovodstvoPoBezopasnosti.SoisokRycovodstvPoBezopasnosti"
+            android:exported="false" />
+        <activity
+            android:name=".DobMaterObych.SpisokObychMaterial"
+            android:exported="false" />
+        <activity
+            android:name=".RycovodstvoPoBezopasnosti.RykovtsvoPoBezopasnosti"
+            android:exported="false" />
+        <activity
+            android:name=".DobMaterObych.ObyyychDobmat"
+            android:exported="false" />
+        <activity
+            android:name=".SpisokInfoPO"
+            android:exported="false" />
+        <activity
+            android:name=".MedicineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DobMatAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ObyhMaterKasir"
+            android:exported="false" />
+        <activity
+            android:name=".Ypravkasir"
+            android:exported="false" />
+        <activity
+            android:name=".Klientandzakaz"
+            android:exported="false" />
+        <activity
+            android:name=".Registr"
+            android:exported="false" />
+        <activity
+            android:name=".Instrukcia"
+            android:exported="false"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".ObychaMater"
+            android:exported="false" />
+        <activity
+            android:name=".ypravlenzapasami"
+            android:exported="false" />
+        <activity
+            android:name=".Medpreprat"
+            android:exported="false" />
+        <activity
+            android:name=".Cashier"
+            android:exported="false" />
+        <activity
+            android:name=".Admin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

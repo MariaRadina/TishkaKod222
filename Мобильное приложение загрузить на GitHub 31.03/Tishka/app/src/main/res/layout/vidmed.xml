@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    app:cardElevation="15dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/editTextInstr2"
+                    android:layout_width="377dp"
+                    android:layout_height="72dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/white"
+                    android:text="Название препарата"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/editTextInstr3"
+                    android:layout_width="95dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/white"
+                    android:text="Количество"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/editTextInstr4"
+                    android:layout_width="77dp"
+                    android:layout_height="73dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/white"
+                    android:text="Цена закупки"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/editTextInstr5"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/white"
+                    android:text="Цена продажи"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/editTextInstr6"
+                    android:layout_width="match_parent"
+                    android:layout_height="73dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/white"
+                    android:text="Поставщик"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/editTextInstr7"
+                    android:layout_width="89dp"
+                    android:layout_height="81dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/white"
+                    android:text="Срок годности"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </TableRow>
+        </TableLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.google.android.material.card.MaterialCardView>
+

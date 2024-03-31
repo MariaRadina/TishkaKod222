@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "147087180046",
+    "project_id": "tishka-43f0c",
+    "storage_bucket": "tishka-43f0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147087180046:android:bcc50f7c0d16fd383e575f",
+        "android_client_info": {
+          "package_name": "com.example.tishka"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzF7uIdkcU-LyQd2KfjazcaSYE8DV7FHQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

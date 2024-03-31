@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/myfon"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/strelka"
+        android:layout_width="38dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginRight="15dp"
+        android:src="@drawable/strelka" />
+    <TextView
+        android:id="@+id/app_sloan"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginRight="15dp"
+        android:text="Обучающие материалы для кассира"
+        android:textAlignment="center"
+        android:textColor="#00137D"
+        android:textSize="28sp"
+        android:textStyle="bold|italic" />
+
+
+    <ListView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/list1"
+        android:layout_below="@+id/app_sloan"></ListView>
+
+
+
+</RelativeLayout>
